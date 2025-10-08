@@ -2,8 +2,9 @@
 module.exports = {
   content: [
     "./app/**/*.{js,ts,tsx}",    // Todos los archivos TSX dentro de app
-    "./components/**/*.{js,ts,tsx}",  // Tus componentes si existen
-    "./index.{js,ts,tsx}"        // Cualquier archivo raíz
+    "./components/**/*.{js,ts,tsx}", 
+    "./presentation/**/*.{js,ts,tsx}", 
+    "./index.{js,ts,tsx}"        
   ],
   presets: [require("nativewind/preset")],
   theme: {
